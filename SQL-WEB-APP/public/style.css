@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+    color: #FBC300;
+    height: 100%;
+    background-image: url("IMG_3705.JPG");
+    background-size: cover ;
+    font-weight: 100;
+
+
+}
+p{
+    font-size: 50px;
+    color: azure;
+}
+
+
+h1{
+    margin: 0;
+    font-size: 300px;
+    line-weight : 200px;
+    font-weight: 100;
+
+}
+
+button{
+    line-height: 2.0;
+    border: 3px solid white;
+    font-size: 1.9em;
+    color: red;
+    padding: 5px 30px;
+    background: whitesmoke;
+    border-radius: 6px;
+    opacity: 0.8;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form{
+    line-height: 1.5;
+    border: none;
+    border-bottom: 3px solid whitesmoke;
+    margin-top: 80px;
+    width: 600px;
+    font-size: 2.9em;
+    color: white;
+    padding: 5px 10px;
+    background: transparent;
+}
+
+input[type=email]:focus{
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: ghostwhite;
+}

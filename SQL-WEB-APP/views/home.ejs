@@ -1,8 +1,23 @@
+<head>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+<div class="flex-container">
+    <div class="container">
+
 <h1>JOIN US  </h1>
 
-<p class="lead">ENTER YOUR EMAIL TO JOIN !!!<strong>502</strong> OTHERS ON OUR WAITLIST</p>
+<p class="lead">ENTER YOUR EMAIL TO JOIN !!! <strong><%=data%></strong> OTHERS ON OUR WAITLIST</p>
 
-<form method="post" action="/regiter">
-    <input type="email" class="form" placeholder="Enter Your Email">
+<form method="post" action="/register">
+    <input type="email" name="email" class="form" placeholder="Enter Your Email">
     <button class="btn">JOIN NOW</button>
 </form>
+
+
+    </div>
+</div>
+
+
+</body>
